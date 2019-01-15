@@ -1,0 +1,22 @@
+{
+  "name": "siteorigin-corp",
+  "version": "1.0.0",
+  "description": "=== SiteOrigin Corp ===",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dist": "webpack --mode production",
+    "watch": "webpack --watch --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
