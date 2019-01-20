@@ -37,7 +37,7 @@
 			<div class="site-header-inner">
 
 				<div class="site-branding">
-					<img src="<?php bloginfo('template_url'); ?>/img/InnovatorX_red.svg " alt="">
+					<a href="<?php bloginfo( 'url' ) ?>"><img src="<?php bloginfo('template_url'); ?>/img/InnovatorX_red.svg " alt="InnovatorX Logo"></a>
 					<?php if ( siteorigin_setting( 'header_site_description' ) ) : ?>
 						<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 					<?php endif ?>
